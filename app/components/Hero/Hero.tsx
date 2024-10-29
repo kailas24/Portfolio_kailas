@@ -4,7 +4,7 @@ import Link from 'next/link'
 import React, { useState } from 'react'
 
 const Hero = () => {
-    const [lgScreen, setLgScreen] = useState(window.innerWidth)
+    const [lgScreen] = useState(window.innerWidth)
 
     return (
         <section className="flex flex-col self-center w-full max-w-[75%] max-lg:max-w-full max-sm:px-3 max-md:px-10 max-lg:px-12">

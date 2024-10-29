@@ -1,10 +1,16 @@
 'use client'
-import { roboto, robotoSlab, suezOne } from '@/app/layout'
+
 import Link from 'next/link'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 const Hero = () => {
-    const [lgScreen] = useState(window.innerWidth)
+    const [lgScreen, setLgScreen] = useState<any>()
+
+    useEffect(() => {
+        if (typeof window !== 'undefined') {
+            setLgScreen(window.innerWidth);
+        }
+    }, []);
 
     return (
         <section className="flex flex-col self-center w-full max-w-[75%] max-lg:max-w-full max-sm:px-3 max-md:px-10 max-lg:px-12">
@@ -17,12 +23,12 @@ const Hero = () => {
                 <div className="flex gap-5 max-md:flex-col">
                     <div className="flex flex-col w-[57%] max-md:ml-0 max-md:w-full">
                         <div className="flex flex-col mt-24 font-light text-zinc-300 max-md:mt-10 max-md:max-w-full">
-                            <h1 className={`${robotoSlab.className} text-2xl max-sm:text-lg`}>Hey! my name is</h1>
-                            <p className={`text-7xl text-green-400 max-md:max-w-full max-sm:text-5xl ${roboto.className}`}>
+                            <h1 className={`font-Roboto_Slab text-2xl max-sm:text-lg`}>Hey! my name is</h1>
+                            <p className={`text-7xl text-green-400 max-md:max-w-full max-sm:text-5xl font-Roboto`}>
                                 GAYAL M SUNIL.
                             </p>
                             <p className="mr-11 text-3xl max-md:mr-2.5 max-md:max-w-full">
-                                <span className={`${robotoSlab.className} text-2xl max-sm:text-lg`}>and I&apos;m a</span>{" "}
+                                <span className={`font-Roboto_Slab text-2xl max-sm:text-lg`}>and I&apos;m a</span>{" "}
                                 <span className="text-4xl max-sm:text-3xl">Full Stack Web Developer.</span>
                             </p>
                         </div>
@@ -45,7 +51,7 @@ const Hero = () => {
                 )}
             </div>
             <blockquote className="self-end mt-3.5 mr-16 w-[40%] text-2xl leading-9 text-white max-md:mr-2.5 max-md:max-w-full max-sm:self-end max-sm:leading-4 max-sm:text-end max-sm:w-[90%] max-lg:w-[60%]">
-                <span className={`text-3xl ${suezOne.className} leading-8 text-green-400 max-sm:text-2xl`}>
+                <span className={`text-3xl font-Suez_One leading-8 text-green-400 max-sm:text-2xl`}>
                     <span className='text-white'>&quot;</span>The only way to do great work is to love what you do.<span className='text-white'>&quot;</span>
                 </span>
                 <br />

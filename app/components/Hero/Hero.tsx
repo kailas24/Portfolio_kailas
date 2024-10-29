@@ -4,7 +4,7 @@ import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
 
 const Hero = () => {
-    const [lgScreen, setLgScreen] = useState<any>()
+    const [lgScreen, setLgScreen] = useState<number>(1024)
 
     useEffect(() => {
         if (typeof window !== 'undefined') {

@@ -1,11 +1,9 @@
 'use client'
 import { roboto, robotoSlab, suezOne } from '@/app/layout'
 import Link from 'next/link'
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 
-type Props = {}
-
-const Hero = (props: Props) => {
+const Hero = () => {
     const [lgScreen, setLgScreen] = useState(window.innerWidth)
 
     return (
@@ -24,14 +22,14 @@ const Hero = (props: Props) => {
                                 GAYAL M SUNIL.
                             </p>
                             <p className="mr-11 text-3xl max-md:mr-2.5 max-md:max-w-full">
-                                <span className={`${robotoSlab.className} text-2xl max-sm:text-lg`}>and I'm a</span>{" "}
+                                <span className={`${robotoSlab.className} text-2xl max-sm:text-lg`}>and I&apos;m a</span>{" "}
                                 <span className="text-4xl max-sm:text-3xl">Full Stack Web Developer.</span>
                             </p>
                         </div>
                     </div>
                     <div className="flex flex-col ml-5 w-[43%] max-md:ml-0 max-md:w-full">
                         <p className="text-xl leading-5 text-zinc-100 max-md:mt-10 max-sm:mt-4 max-md:max-w-full max-sm:text-sm max-sm:leading-4">
-                            Hi, I'm Gayal - a self-taught web developer with a passion for coding, problem-solving, and exploring new technologies. Over the years, I've honed my skills through dedication and a love for the craft, constantly pushing myself to take on challenging projects. Whether it's building sleek web applications or diving into the latest tech trends, I'm always eager to learn and grow. <br /><br /> I'm constantly seeking opportunities to expand my expertise and refine my skills. I thrive on tackling challenging projects and value the opportunity to collaborate, turning innovative ideas into impactful, real-world solutions.
+                            Hi, I&apos;m Gayal - a self-taught web developer with a passion for coding, problem-solving, and exploring new technologies. Over the years, I&apos;ve honed my skills through dedication and a love for the craft, constantly pushing myself to take on challenging projects. Whether it&apos;s building sleek web applications or diving into the latest tech trends, I&apos;m always eager to learn and grow. <br /><br /> I&apos;m constantly seeking opportunities to expand my expertise and refine my skills. I thrive on tackling challenging projects and value the opportunity to collaborate, turning innovative ideas into impactful, real-world solutions.
                         </p>
                     </div>
                 </div>
@@ -48,7 +46,7 @@ const Hero = (props: Props) => {
             </div>
             <blockquote className="self-end mt-3.5 mr-16 w-[40%] text-2xl leading-9 text-white max-md:mr-2.5 max-md:max-w-full max-sm:self-end max-sm:leading-4 max-sm:text-end max-sm:w-[90%] max-lg:w-[60%]">
                 <span className={`text-3xl ${suezOne.className} leading-8 text-green-400 max-sm:text-2xl`}>
-                    <span className='text-white'>"</span>The only way to do great work is to love what you do.<span className='text-white'>"</span>
+                    <span className='text-white'>&quot;</span>The only way to do great work is to love what you do.<span className='text-white'>&quot;</span>
                 </span>
                 <br />
                 <cite className="text-zinc-300 text-xl max-sm:text-sm">~ Steve Jobs</cite>

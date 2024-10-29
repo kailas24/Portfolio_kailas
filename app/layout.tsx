@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+// import type { Metadata } from "next";
 import {Inter, Suez_One, Roboto_Slab, Roboto} from 'next/font/google'
 import "./globals.css";
 

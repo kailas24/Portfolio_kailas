@@ -1,9 +1,7 @@
 import React from 'react'
 import ProjectCards from '../ProjectCards/ProjectCards';
 
-type Props = {}
-
-const Projects = (props: Props) => {
+const Projects = () => {
     const projects = [
         {
             title: 'Learnify',
@@ -85,7 +83,7 @@ const Projects = (props: Props) => {
         <section id='projects' className="flex overflow-hidden flex-col py-16 pb-20 mt-9 w-full bg-stone-900 max-md:max-w-full">
             <div className="flex flex-col px-16 w-full max-md:px-5 max-md:max-w-full">
                 <h2 className="self-start text-5xl leading-none text-zinc-300 max-md:text-4xl max-sm:text-2xl">
-                    Things I've built
+                    Things I&apos;ve built
                 </h2>
                 <div className="self-center mt-28 w-full max-w-6xl max-md:px-6 max-sm:px-1 max-md:mt-10 max-sm:mt-0 max-md:max-w-full">
                     <div className="grid grid-cols-3 gap-10 max-sm:gap-1 max-md:gap-5 max-sm:grid-cols-1 max-xl:grid-cols-2">

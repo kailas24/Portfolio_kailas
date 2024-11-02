@@ -45,7 +45,7 @@ const Hero = () => {
                     Projects
                 </Link>
                 {lgScreen >= 1024 && (
-                    <Link href={'#projects'} className="overflow-hidden gap-2 self-start p-3 px-8 text-xl font-medium py-3.5 mt-2.5 leading-none whitespace-nowrap rounded-lg bg-green-400 text-zinc-800 hover:scale-110 max-sm:hover:scale-75 duration-300 max-sm:scale-75 max-sm:self-start">
+                    <Link href={'/Resume.pdf'} download className="overflow-hidden gap-2 self-start p-3 px-8 text-xl font-medium py-3.5 mt-2.5 leading-none whitespace-nowrap rounded-lg bg-green-400 text-zinc-800 hover:scale-110 max-sm:hover:scale-75 duration-300 max-sm:scale-75 max-sm:self-start">
                         Resume
                     </Link>
                 )}

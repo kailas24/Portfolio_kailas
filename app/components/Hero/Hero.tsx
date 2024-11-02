@@ -15,7 +15,7 @@ const Hero = () => {
     return (
         <section className="flex flex-col self-center w-full max-w-[75%] max-lg:max-w-full max-sm:px-3 max-md:px-10 max-lg:px-12">
             {lgScreen < 1024 && (
-                <Link href={'#projects'} className="overflow-hidden right-5 top-5 absolute p-3 px-8 text-xl font-medium py-3.5 text-green-400 underline leading-3">
+                <Link href={'/Resume.pdf'} download className="overflow-hidden right-5 top-5 absolute p-3 px-8 text-xl font-medium py-3.5 text-green-400 underline leading-3">
                     Resume
                 </Link>
             )}

@@ -7,7 +7,7 @@ import Footer from "./components/Footer/Footer";
 
 const page = () => {
   return (
-    <div className="flex flex-col pt-24 max-sm:pt-8 bg-neutral-800">
+    <div className="flex flex-col pt-24 max-sm:pt-8 bg-black">
       <Hero />
       <SocialLinks />
       <Projects />

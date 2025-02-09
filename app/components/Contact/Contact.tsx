@@ -9,7 +9,7 @@ const Contact = () => {
         <p className="mt-8 ml-16 max-sm:ml-5 text-2xl font-medium leading-7 max-md:max-w-full max-sm:text-base">
           Have a project in mind or just want to chat? I&apos;m always open to new ideas and collaborations. Reach out, and let&apos;s make something remarkable together!
         </p>
-        <Link href={'mailto:gayalsunil@gmail.com'} target='_blank' className="relative inline-flex items-center justify-center p-4 px-6 max-sm:px-3 max-sm:py-2 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out rounded-md shadow-md group gap-2 self-stretch mt-8 max-sm:mt-5 ml-16 text-xl max-sm:text-base text-pink-5 bg-stone-900 min-h-[53px] max-sm:ml-6 max-md:ml-16 hover:scale-110">
+        <Link href={'mailto:kailazjayan062003@gmail.com'} target='_blank' className="relative inline-flex items-center justify-center p-4 px-6 max-sm:px-3 max-sm:py-2 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out rounded-md shadow-md group gap-2 self-stretch mt-8 max-sm:mt-5 ml-16 text-xl max-sm:text-base text-pink-5 bg-stone-900 min-h-[53px] max-sm:ml-6 max-md:ml-16 hover:scale-110">
           <span className="absolute inset-0 flex items-center justify-center w-full h-full font-light text-white duration-300 -translate-x-full group-hover:translate-x-0 ease">
             Say Hello👋
           </span>

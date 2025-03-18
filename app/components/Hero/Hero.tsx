@@ -34,7 +34,7 @@ const Hero = () => {
                         </div>
                         <div className="flex flex-col mt-10  max-md:ml-0 max-md:w-full w-4/5">
                             <p className="text-xl leading-5 text-zinc-100 max-md:mt-10 max-sm:mt-4 max-md:max-w-full max-sm:text-sm max-sm:leading-4">
-                            I'm a Robotics and Automation Engineer focused on creating intelligent systems that optimize processes. With skills in robotics, AI, embedded systems, and control mechanisms, I develop innovative solutions for real-world challenges. My work spans from industrial automation to autonomous robotics, always driven by a passion for advancing technology. Let's innovate together!                            </p>
+                            I&apos;m a Robotics and Automation Engineer focused on creating intelligent systems that optimize processes. With skills in robotics, AI, embedded systems, and control mechanisms, I develop innovative solutions for real-world challenges. My work spans from industrial automation to autonomous robotics, always driven by a passion for advancing technology. Let&apos;s innovate together!                            </p>
                         </div>
                     </div>
                     <div className="flex flex-col mt-10 w-2/6 max-md:ml-0 max-md:w-full">

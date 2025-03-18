@@ -4,6 +4,15 @@ import ProjectCards from '../ProjectCards/ProjectCards';
 const Projects = () => {
     const projects = [
         {
+            title: 'VR Teleoperating Robot',
+            description:'The VR Teleoperated Robot uses Arduino Uno, MPU6050, and Flex Sensors for gesture-based control of servo motors. It is ideal for tasks in hazardous environments, medical surgeries, and remote operations.',
+            tech: 'Arduino UNO, MPU6050 Sensor, Flex Sensor, Servo Motors, I2C Communication protocol, C/C++ Programming, VR',
+            source: {
+                sourceLink: "https://drive.google.com/drive/folders/1gY1q9chQm-UGSZxIy9Y0luFR_2nZw9CE"
+            },
+            link: ''
+        },
+        {
             title: 'Underwater Robot',
             description: "An underwater ROV's objectives, design, modules, challenges, and applications. It features Arduino controls, BLDC motors, and sensors for exploration and research, detailing problem analysis, assembly, testing, and real-time environmental monitoring",
             tech: 'Arduino UNO, BLDC, ESC, Li-ion Battery, Camera',
